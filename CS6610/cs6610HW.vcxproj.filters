@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lodepng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_environmentMapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="shader_noTex.frag" />
+    <None Include="MeshShader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MeshShader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ShadowShader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ShadowShader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="EnvironmentShader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="EnvironmentShader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReflectiveShader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReflectiveShader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lineFS.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lineGS.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lineTCS.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lineTES.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lineVS.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="teapotFS.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="teapotGS.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="teapotTCS.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="teapotTES.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="teapotVS.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cyCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cyTriMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cyVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cyGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cyMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lodepng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjDrawer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
